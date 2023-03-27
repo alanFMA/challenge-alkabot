@@ -1,10 +1,5 @@
 # challenge-alkabot
 
-<h1 align="center">
-    <a href="https://vitejs.dev/">🔗 Vite</a>
-</h1>
-<p align="center">🚀 ferramenta de construção de interface</p>
-
 ## 📋 Descrição
 Esse projeto consome dados de uma APIRESTful para exibir posts de um blog que, ao clicar em um post, exibe os comentários associados e viabilizando também o acesso ao perfil do autor do post com todas as suas postagens de sua conta no blog.
 
@@ -14,7 +9,8 @@ Você pode também acessar a aplicação no [netlify](https://main--legendary-sn
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``Vite``
+<h3><a href="https://vitejs.dev/">&nbsp Vite</a> - 🚀ferramenta de construção de interface</h3>
+
 - ``React``
 - ``Typescript``
 - ``Styled Components``
