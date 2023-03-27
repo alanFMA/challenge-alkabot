@@ -11,7 +11,8 @@
 #
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/alanFMA/challenge-alkabot).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/alanFMA/challenge-alkabot). <br />
+Você pode também acessar a aplicação no [netlify](https://main--legendary-snickerdoodle-0fa4ea.netlify.app/)
 
 ## 🛠️ Como instalar:
 
@@ -24,6 +25,7 @@ Abra (http://localhost:5173/) para visualizar no navegador.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
+- ``Vite``
 - ``React``
 - ``Typescript``
 - ``Styled Components``
