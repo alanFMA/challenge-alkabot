@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import { Posts } from "./pages/Posts/Posts";
+import { Post } from "./pages/Post/Post";
+import { User } from "./pages/User/User";
+import GlobalStyle from "./GlobalStyle";
+import { TopBar } from "./components/TobBar/TopBar";
+import { WrapperBody } from "./components/Wrapper/Wrapper.styles";
+import { ThemeProvider } from "styled-components";
+import { Theme } from "./theme/theme";
 
-function App() {
-  const [count, setCount] = useState(0)
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+function ScrollToTopOnMount() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }
 
-export default App
+export function App() {
+  return (
+    <>
+      <ThemeProvider theme={Theme}>
+        <TopBar />
+        <GlobalStyle />
+        <WrapperBody>
+          <ScrollToTopOnMount />
+          <Routes>
+            <Route path="/" element={<Posts />} />
+            <Route path="/posts/:id/comments" element={<Post />} />
+            <Route path="/user/:userId" element={<User />} />
+          </Routes>
+        </WrapperBody>
+      </ThemeProvider>
+    </>
+  );
+}
