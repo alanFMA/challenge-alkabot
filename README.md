@@ -14,15 +14,6 @@
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/alanFMA/challenge-alkabot). <br /><br />
 Você pode também acessar a aplicação no [netlify](https://main--legendary-snickerdoodle-0fa4ea.netlify.app/)
 
-## 🛠️ Como instalar:
-
-<p> Após clonar o repositório, digite "npm install" para instalar todas as dependências do projeto<p>
-<p> OBS.: O projeto está rodando com a versão do Node: 16.17.1<p>
-
-## 🛠️ Executar o projeto
-<p> Após instalar as dependências, rodar o projeto com "npm run dev" <br />
-Abra (http://localhost:5173/) para visualizar no navegador.
-
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Vite``
@@ -34,3 +25,12 @@ Abra (http://localhost:5173/) para visualizar no navegador.
 - ``Editor config``
 - ``ESlint``
 - ``Prettier``
+
+## 🛠️ Como instalar:
+
+<p> Após clonar o repositório, digite "npm install" para instalar todas as dependências do projeto<p>
+<p> OBS.: O projeto está rodando com a versão do Node: 16.17.1<p>
+
+## 🛠️ Executar o projeto
+<p> Após instalar as dependências, rodar o projeto com "npm run dev" <br />
+Abra (http://localhost:5173/) para visualizar no navegador.
