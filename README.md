@@ -1,14 +1,12 @@
 # challenge-alkabot
 
-## Descrição do Projeto
-<p align="center">Projeto de um blog consumindo dados de uma API</p>
-
 <h1 align="center">
     <a href="https://vitejs.dev/">🔗 Vite</a>
 </h1>
 <p align="center">🚀 ferramenta de construção de interface</p>
 
-#
+## 📋 Descrição
+Esse projeto consome dados de uma APIRESTful para exibir posts de um blog que, ao clicar em um post, exibe os comentários associados e viabilizando também o acesso ao perfil do autor do post com todas as suas postagens de sua conta no blog.
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/alanFMA/challenge-alkabot). <br /><br />
@@ -26,11 +24,37 @@ Você pode também acessar a aplicação no [netlify](https://main--legendary-sn
 - ``ESlint``
 - ``Prettier``
 
-## 🛠️ Como instalar:
+## 📋 Pré-requisitos
 
-<p> Após clonar o repositório, digite "npm install" para instalar todas as dependências do projeto<p>
-<p> OBS.: O projeto está rodando com a versão do Node: 16.17.1<p>
+Para conseguir fazer esse projeto rodar de modo 100% funcional na sua máquina,
+você deve possuir os seguintes **requisitos**:
 
-## 🛠️ Executar o projeto
-<p> Após instalar as dependências, rodar o projeto com "npm run dev" <br />
-Abra (http://localhost:5173/) para visualizar no navegador.
+- [NodeJS](https://nodejs.org/en/download/)
+  - O link de download está disponível ao clicar no nome "NodeJS" acima.
+  - A versão utilizada no projeto é a 16.17.1
+- [NPM](https://www.npmjs.com/) - Gerenciador de Dependência 📥
+
+## 🚀 Preparando A Aplicação
+
+1 - Clone Este Repositório
+
+2 - Abra o VS Code ou sua IDE de preferência e acesse a pasta do repositório
+
+3 - Após isso, digite o seguinte comando para instalação dos pacotes da aplicação
+
+```jsx
+npm install
+```
+
+4 - Após a instalação das dependências, será necessário rodar o projeto com o seguinte comando:
+
+```jsx
+npm run dev
+```
+Abra http://localhost:5173/ para visualizar no navegador.
+
+Por fim, sua aplicação está pronta para uso, faça bom proveito ;)
+
+## ✒️ Autor
+
+- **Alan Andrade** - _Desenvolvedor Responsável_ - [Alan Andrade](https://github.com/AlanFMA)
