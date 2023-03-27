@@ -54,4 +54,3 @@ Por fim, sua aplicação está pronta para uso, faça bom proveito ;)
 ## ✒️ Autor
 
 - **Alan Andrade** - _Desenvolvedor Responsável_ - [Alan Andrade](https://github.com/AlanFMA)
->>>>>>> 6ce630986c7deaad474e83aaaed1e229a3ee6584
