@@ -32,4 +32,5 @@ Abra (http://localhost:5173/) para visualizar no navegador.
 - ``Axios``
 - ``React Query``
 - ``Editor config``
+- ``ESlint``
 - ``Prettier``
